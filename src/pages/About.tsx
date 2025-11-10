@@ -5,7 +5,7 @@ import { Zap, Award, Users, Clock, Cpu, Shield, Rocket, Hexagon, Sparkles, Troph
 const About = () => {
   const stats = [
     { icon: Award, number: 'Neu', label: 'Junges, engagiertes Unternehmen', glow: 'red-500' },
-    { icon: Users, number: '10+', label: 'Zufriedene Kunden', glow: 'cyan-400' }
+    { icon: Users, number: '40+', label: 'Zufriedene Kunden', glow: 'cyan-400' }
   ];
 
 

@@ -271,7 +271,7 @@ const Home = () => {
                     </thead>
                     <tbody>
                       <tr className="border-b border-gray-800 hover:bg-green-900/10 transition-colors duration-300">
-                        <td className="px-6 py-4 text-white font-semibold drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]">10:30–12:00</td>
+                        <td className="px-6 py-4 text-white font-semibold drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]">11:00–12:30</td>
                         <td className="px-6 py-4 text-center text-gray-300 hover:text-white transition-colors duration-300">
                           <div className="relative group/cell">
                             <div className="absolute inset-0 bg-red-500/10 opacity-0 group-hover/cell:opacity-100 transition-opacity duration-300 rounded-lg"></div>
@@ -348,8 +348,8 @@ const Home = () => {
                           </div>
                         </td>
                       </tr>
-                      <tr className="hover:bg-cyan-900/10 transition-colors duration-300">
-                        <td className="px-6 py-4 text-white font-semibold drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]">18:30–20:00</td>
+                      <tr className="border-b border-gray-800 hover:bg-red-900/10 transition-colors duration-300">
+                        <td className="px-6 py-4 text-white font-semibold drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]">18:30–19:45</td>
                         <td className="px-6 py-4 text-center text-gray-300 hover:text-white transition-colors duration-300">
                           <div className="relative group/cell">
                             <div className="absolute inset-0 bg-red-500/10 opacity-0 group-hover/cell:opacity-100 transition-opacity duration-300 rounded-lg"></div>
@@ -359,7 +359,7 @@ const Home = () => {
                         <td className="px-6 py-4 text-center text-gray-300 hover:text-white transition-colors duration-300">
                           <div className="relative group/cell">
                             <div className="absolute inset-0 bg-cyan-400/10 opacity-0 group-hover/cell:opacity-100 transition-opacity duration-300 rounded-lg"></div>
-                            <span className="relative z-10">Fitnessboxtraining</span>
+                            <span className="relative z-10">Freies Training</span>
                           </div>
                         </td>
                         <td className="px-6 py-4 text-center text-gray-300 hover:text-white transition-colors duration-300">
@@ -371,13 +371,52 @@ const Home = () => {
                         <td className="px-6 py-4 text-center text-gray-300 hover:text-white transition-colors duration-300">
                           <div className="relative group/cell">
                             <div className="absolute inset-0 bg-green-500/10 opacity-0 group-hover/cell:opacity-100 transition-opacity duration-300 rounded-lg"></div>
-                            <span className="relative z-10">Fitnessboxtraining</span>
+                            <span className="relative z-10">Freies Training</span>
                           </div>
                         </td>
                         <td className="px-6 py-4 text-center text-gray-300 hover:text-white transition-colors duration-300">
                           <div className="relative group/cell">
                             <div className="absolute inset-0 bg-yellow-500/10 opacity-0 group-hover/cell:opacity-100 transition-opacity duration-300 rounded-lg"></div>
                             <span className="relative z-10">Fitnessboxtraining</span>
+                          </div>
+                        </td>
+                        <td className="px-6 py-4 text-center text-gray-300 hover:text-white transition-colors duration-300">
+                          <div className="relative group/cell">
+                            <div className="absolute inset-0 bg-pink-500/10 opacity-0 group-hover/cell:opacity-100 transition-opacity duration-300 rounded-lg"></div>
+                            <span className="relative z-10">-</span>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr className="hover:bg-cyan-900/10 transition-colors duration-300">
+                        <td className="px-6 py-4 text-white font-semibold drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]">19:45–21:00</td>
+                        <td className="px-6 py-4 text-center text-gray-300 hover:text-white transition-colors duration-300">
+                          <div className="relative group/cell">
+                            <div className="absolute inset-0 bg-red-500/10 opacity-0 group-hover/cell:opacity-100 transition-opacity duration-300 rounded-lg"></div>
+                            <span className="relative z-10">Wettkampf-Training</span>
+                          </div>
+                        </td>
+                        <td className="px-6 py-4 text-center text-gray-300 hover:text-white transition-colors duration-300">
+                          <div className="relative group/cell">
+                            <div className="absolute inset-0 bg-cyan-400/10 opacity-0 group-hover/cell:opacity-100 transition-opacity duration-300 rounded-lg"></div>
+                            <span className="relative z-10">Freies-Training</span>
+                          </div>
+                        </td>
+                        <td className="px-6 py-4 text-center text-gray-300 hover:text-white transition-colors duration-300">
+                          <div className="relative group/cell">
+                            <div className="absolute inset-0 bg-purple-500/10 opacity-0 group-hover/cell:opacity-100 transition-opacity duration-300 rounded-lg"></div>
+                            <span className="relative z-10">Wettkampf-Training</span>
+                          </div>
+                        </td>
+                        <td className="px-6 py-4 text-center text-gray-300 hover:text-white transition-colors duration-300">
+                          <div className="relative group/cell">
+                            <div className="absolute inset-0 bg-green-500/10 opacity-0 group-hover/cell:opacity-100 transition-opacity duration-300 rounded-lg"></div>
+                            <span className="relative z-10">Freies-Training</span>
+                          </div>
+                        </td>
+                        <td className="px-6 py-4 text-center text-gray-300 hover:text-white transition-colors duration-300">
+                          <div className="relative group/cell">
+                            <div className="absolute inset-0 bg-yellow-500/10 opacity-0 group-hover/cell:opacity-100 transition-opacity duration-300 rounded-lg"></div>
+                            <span className="relative z-10">Wettkampf-Training</span>
                           </div>
                         </td>
                         <td className="px-6 py-4 text-center text-gray-300 hover:text-white transition-colors duration-300">

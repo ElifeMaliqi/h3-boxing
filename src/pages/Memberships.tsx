@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Zap, Trophy, Target, Users, Clock, Star, CheckCircle, Cpu, Shield, Rocket, Hexagon, Sparkles } from 'lucide-react';
+import { Zap, Trophy, Target, Users, Clock, Star, CheckCircle, Cpu, Shield, Rocket, Hexagon, Sparkles, Dumbbell } from 'lucide-react';
 
 const Memberships = () => {
   const membershipPlans = [
@@ -17,7 +17,6 @@ const Memberships = () => {
           price: '1290.-',
           duration: 'pro Jahr',
           features: [
-            'Unbegrenztes Training',
             'Wettkampfvorbereitung',
             'Persönliche Betreuung',
             'Sparring Sessions',
@@ -31,7 +30,6 @@ const Memberships = () => {
           price: '999.-',
           duration: 'pro Jahr',
           features: [
-            'Unbegrenztes Training',
             'Jugend-Wettkampfvorbereitung',
             'Altersgerechte Betreuung',
             'Techniktraining',
@@ -54,7 +52,6 @@ const Memberships = () => {
           price: '1090.-',
           duration: 'pro Jahr',
           features: [
-            'Unbegrenztes Training',
             'Fitness-Boxkurse',
             'Cardio-Training',
             'Krafttraining',
@@ -67,7 +64,6 @@ const Memberships = () => {
           price: '650.-',
           duration: 'pro 6 Monate',
           features: [
-            'Unbegrenztes Training',
             'Fitness-Boxkurse',
             'Cardio-Training',
             'Krafttraining',
@@ -115,9 +111,9 @@ const Memberships = () => {
 
   const benefits = [
     {
-      icon: Clock,
-      title: 'Flexible Zeiten',
-      description: 'Trainiere wann es dir passt - 7 Tage die Woche',
+      icon: Dumbbell,
+      title: 'Professionelle Trainer',
+      description: 'Lerne von erfahrenen Coaches mit echter Kampferfahrung',
       glow: 'red-500'
     },
     {
@@ -311,11 +307,6 @@ const Memberships = () => {
                     {plan.popular && (
                       <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-50">
                         <div className="relative">
-                          <span className={`bg-gradient-to-r from-${category.glowColor} to-red-600 text-white px-6 py-2 rounded-full text-sm font-semibold drop-shadow-[0_0_15px_rgba(220,38,38,0.8)] animate-pulse`}>
-                            <Sparkles className="inline w-4 h-4 mr-1" />
-                            Beliebt
-                          </span>
-                          <div className={`absolute inset-0 bg-${category.glowColor}/30 blur-xl animate-pulse`}></div>
                         </div>
                       </div>
                     )}
